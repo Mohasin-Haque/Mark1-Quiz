@@ -11,7 +11,7 @@ function play(question, ans){
     score = score + 1;
     console.log("Your answer is correct \n")
   } else{
-    console.log(`Oops, the answer you told is incorrect. \nCorrect is answer is ${ans}`)
+    console.log(`Oops, the answer you told is incorrect. \nCorrect is answer is ${ans}\n`)
   }
 }
 
