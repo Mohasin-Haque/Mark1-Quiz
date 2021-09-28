@@ -21,16 +21,16 @@ const questions = [
     answer: "december"
   },
   {
-    "question": "Am I greater than 25",
-    "answer": "no"
+    question: "Am I greater than 25",
+    answer: "no"
   },
   {
     question: "Which is my Fav Social Media Platform? ",
     answer: "instagram"
   },
   {
-    "question": "Which is my favourite framework",
-    "answer": "react"
+    question: "Which is my favourite framework",
+    answer: "react"
   },
   {
     question: "Where do I Work? ",
@@ -41,13 +41,14 @@ const questions = [
     answer: "varanasi"
   },
   {
-    "question": "What is my favourite food? ",
-    "answer": "paneer"
+    question: "What is my favourite food? ",
+    answer: "paneer"
   },
 ]
 
 for(let i = 0; i < questions.length; i++){
    play(questions[i].question, questions[i].answer)
+   console.log("Score: " +score);
 }
 console.log(`Final Score: ${score} `)
 
